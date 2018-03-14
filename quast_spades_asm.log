@@ -1,0 +1,1071 @@
+/scratch/nolson/quast-4.4/quast.py scaffolds.fasta
+
+Version: 4.4
+
+System information:
+  OS: Linux-4.4.0-112-generic-x86_64-with-Ubuntu-16.04-xenial (linux_64)
+  Python version: 2.7.12
+  CPUs number: 40
+
+Started: 2018-03-08 21:30:32
+
+Logging to /scratch/jackson/mix_path_asm/NIST_1-spades/quast_results/results_2018_03_08_21_30_32/quast.log
+NOTICE: Maximum number of threads is set to 10 (use --threads option to set it manually)
+
+CWD: /scratch/jackson/mix_path_asm/NIST_1-spades
+Main parameters: 
+  Threads: 10, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Contigs:
+  Pre-processing...
+  scaffolds.fasta ==> scaffolds
+
+2018-03-08 21:30:35
+Running Basic statistics processor...
+  Contig files: 
+    scaffolds
+  Calculating N50 and L50...
+    scaffolds, N50 = 180844, L50 = 8, Total length = 5297117, GC % = 51.01, # N's per 100 kbp =  30.02
+  Drawing Nx plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_1-spades/quast_results/results_2018_03_08_21_30_32/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_1-spades/quast_results/results_2018_03_08_21_30_32/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_1-spades/quast_results/results_2018_03_08_21_30_32/basic_stats/GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 1x)...
+    saved to /scratch/jackson/mix_path_asm/NIST_1-spades/quast_results/results_2018_03_08_21_30_32/basic_stats/coverage_histogram.pdf
+  Drawing scaffolds coverage histogram (bin size: 1x)...
+    saved to /scratch/jackson/mix_path_asm/NIST_1-spades/quast_results/results_2018_03_08_21_30_32/basic_stats/scaffolds_coverage_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2018-03-08 21:30:37
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2018-03-08 21:30:37
+RESULTS:
+  Text versions of total report are saved to /scratch/jackson/mix_path_asm/NIST_1-spades/quast_results/results_2018_03_08_21_30_32/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /scratch/jackson/mix_path_asm/NIST_1-spades/quast_results/results_2018_03_08_21_30_32/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /scratch/jackson/mix_path_asm/NIST_1-spades/quast_results/results_2018_03_08_21_30_32/report.html
+  PDF version (tables and plots) is saved to /scratch/jackson/mix_path_asm/NIST_1-spades/quast_results/results_2018_03_08_21_30_32/report.pdf
+  Icarus (contig browser) is saved to /scratch/jackson/mix_path_asm/NIST_1-spades/quast_results/results_2018_03_08_21_30_32/icarus.html
+  Log saved to /scratch/jackson/mix_path_asm/NIST_1-spades/quast_results/results_2018_03_08_21_30_32/quast.log
+
+Finished: 2018-03-08 21:30:37
+Elapsed time: 0:00:04.758088
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
+/scratch/nolson/quast-4.4/quast.py scaffolds.fasta
+
+Version: 4.4
+
+System information:
+  OS: Linux-4.4.0-112-generic-x86_64-with-Ubuntu-16.04-xenial (linux_64)
+  Python version: 2.7.12
+  CPUs number: 40
+
+Started: 2018-03-08 21:30:37
+
+Logging to /scratch/jackson/mix_path_asm/NIST_2-spades/quast_results/results_2018_03_08_21_30_37/quast.log
+NOTICE: Maximum number of threads is set to 10 (use --threads option to set it manually)
+
+CWD: /scratch/jackson/mix_path_asm/NIST_2-spades
+Main parameters: 
+  Threads: 10, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Contigs:
+  Pre-processing...
+  scaffolds.fasta ==> scaffolds
+
+2018-03-08 21:30:40
+Running Basic statistics processor...
+  Contig files: 
+    scaffolds
+  Calculating N50 and L50...
+    scaffolds, N50 = 166171, L50 = 11, Total length = 7714010, GC % = 45.11, # N's per 100 kbp =  26.23
+  Drawing Nx plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_2-spades/quast_results/results_2018_03_08_21_30_37/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_2-spades/quast_results/results_2018_03_08_21_30_37/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_2-spades/quast_results/results_2018_03_08_21_30_37/basic_stats/GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 38x)...
+    saved to /scratch/jackson/mix_path_asm/NIST_2-spades/quast_results/results_2018_03_08_21_30_37/basic_stats/coverage_histogram.pdf
+  Drawing scaffolds coverage histogram (bin size: 38x)...
+    saved to /scratch/jackson/mix_path_asm/NIST_2-spades/quast_results/results_2018_03_08_21_30_37/basic_stats/scaffolds_coverage_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2018-03-08 21:30:41
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2018-03-08 21:30:42
+RESULTS:
+  Text versions of total report are saved to /scratch/jackson/mix_path_asm/NIST_2-spades/quast_results/results_2018_03_08_21_30_37/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /scratch/jackson/mix_path_asm/NIST_2-spades/quast_results/results_2018_03_08_21_30_37/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /scratch/jackson/mix_path_asm/NIST_2-spades/quast_results/results_2018_03_08_21_30_37/report.html
+  PDF version (tables and plots) is saved to /scratch/jackson/mix_path_asm/NIST_2-spades/quast_results/results_2018_03_08_21_30_37/report.pdf
+  Icarus (contig browser) is saved to /scratch/jackson/mix_path_asm/NIST_2-spades/quast_results/results_2018_03_08_21_30_37/icarus.html
+  Log saved to /scratch/jackson/mix_path_asm/NIST_2-spades/quast_results/results_2018_03_08_21_30_37/quast.log
+
+Finished: 2018-03-08 21:30:42
+Elapsed time: 0:00:04.565701
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
+/scratch/nolson/quast-4.4/quast.py scaffolds.fasta
+
+Version: 4.4
+
+System information:
+  OS: Linux-4.4.0-112-generic-x86_64-with-Ubuntu-16.04-xenial (linux_64)
+  Python version: 2.7.12
+  CPUs number: 40
+
+Started: 2018-03-08 21:30:42
+
+Logging to /scratch/jackson/mix_path_asm/NIST_3-spades/quast_results/results_2018_03_08_21_30_42/quast.log
+NOTICE: Maximum number of threads is set to 10 (use --threads option to set it manually)
+
+CWD: /scratch/jackson/mix_path_asm/NIST_3-spades
+Main parameters: 
+  Threads: 10, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Contigs:
+  Pre-processing...
+  scaffolds.fasta ==> scaffolds
+
+2018-03-08 21:30:45
+Running Basic statistics processor...
+  Contig files: 
+    scaffolds
+  Calculating N50 and L50...
+    scaffolds, N50 = 109208, L50 = 10, Total length = 3067805, GC % = 34.16, # N's per 100 kbp =  4.86
+  Drawing Nx plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_3-spades/quast_results/results_2018_03_08_21_30_42/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_3-spades/quast_results/results_2018_03_08_21_30_42/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_3-spades/quast_results/results_2018_03_08_21_30_42/basic_stats/GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 6x)...
+    saved to /scratch/jackson/mix_path_asm/NIST_3-spades/quast_results/results_2018_03_08_21_30_42/basic_stats/coverage_histogram.pdf
+  Drawing scaffolds coverage histogram (bin size: 6x)...
+    saved to /scratch/jackson/mix_path_asm/NIST_3-spades/quast_results/results_2018_03_08_21_30_42/basic_stats/scaffolds_coverage_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2018-03-08 21:30:46
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2018-03-08 21:30:46
+RESULTS:
+  Text versions of total report are saved to /scratch/jackson/mix_path_asm/NIST_3-spades/quast_results/results_2018_03_08_21_30_42/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /scratch/jackson/mix_path_asm/NIST_3-spades/quast_results/results_2018_03_08_21_30_42/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /scratch/jackson/mix_path_asm/NIST_3-spades/quast_results/results_2018_03_08_21_30_42/report.html
+  PDF version (tables and plots) is saved to /scratch/jackson/mix_path_asm/NIST_3-spades/quast_results/results_2018_03_08_21_30_42/report.pdf
+  Icarus (contig browser) is saved to /scratch/jackson/mix_path_asm/NIST_3-spades/quast_results/results_2018_03_08_21_30_42/icarus.html
+  Log saved to /scratch/jackson/mix_path_asm/NIST_3-spades/quast_results/results_2018_03_08_21_30_42/quast.log
+
+Finished: 2018-03-08 21:30:46
+Elapsed time: 0:00:04.205370
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
+/scratch/nolson/quast-4.4/quast.py scaffolds.fasta
+
+Version: 4.4
+
+System information:
+  OS: Linux-4.4.0-112-generic-x86_64-with-Ubuntu-16.04-xenial (linux_64)
+  Python version: 2.7.12
+  CPUs number: 40
+
+Started: 2018-03-08 21:30:46
+
+Logging to /scratch/jackson/mix_path_asm/NIST_4-spades/quast_results/results_2018_03_08_21_30_46/quast.log
+NOTICE: Maximum number of threads is set to 10 (use --threads option to set it manually)
+
+CWD: /scratch/jackson/mix_path_asm/NIST_4-spades
+Main parameters: 
+  Threads: 10, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Contigs:
+  Pre-processing...
+  scaffolds.fasta ==> scaffolds
+
+2018-03-08 21:30:49
+Running Basic statistics processor...
+  Contig files: 
+    scaffolds
+  Calculating N50 and L50...
+    scaffolds, N50 = 302183, L50 = 8, Total length = 7880267, GC % = 66.62, # N's per 100 kbp =  29.72
+  Drawing Nx plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_4-spades/quast_results/results_2018_03_08_21_30_46/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_4-spades/quast_results/results_2018_03_08_21_30_46/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_4-spades/quast_results/results_2018_03_08_21_30_46/basic_stats/GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 2x)...
+    saved to /scratch/jackson/mix_path_asm/NIST_4-spades/quast_results/results_2018_03_08_21_30_46/basic_stats/coverage_histogram.pdf
+  Drawing scaffolds coverage histogram (bin size: 2x)...
+    saved to /scratch/jackson/mix_path_asm/NIST_4-spades/quast_results/results_2018_03_08_21_30_46/basic_stats/scaffolds_coverage_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2018-03-08 21:30:51
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2018-03-08 21:30:51
+RESULTS:
+  Text versions of total report are saved to /scratch/jackson/mix_path_asm/NIST_4-spades/quast_results/results_2018_03_08_21_30_46/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /scratch/jackson/mix_path_asm/NIST_4-spades/quast_results/results_2018_03_08_21_30_46/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /scratch/jackson/mix_path_asm/NIST_4-spades/quast_results/results_2018_03_08_21_30_46/report.html
+  PDF version (tables and plots) is saved to /scratch/jackson/mix_path_asm/NIST_4-spades/quast_results/results_2018_03_08_21_30_46/report.pdf
+  Icarus (contig browser) is saved to /scratch/jackson/mix_path_asm/NIST_4-spades/quast_results/results_2018_03_08_21_30_46/icarus.html
+  Log saved to /scratch/jackson/mix_path_asm/NIST_4-spades/quast_results/results_2018_03_08_21_30_46/quast.log
+
+Finished: 2018-03-08 21:30:51
+Elapsed time: 0:00:04.910102
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
+/scratch/nolson/quast-4.4/quast.py scaffolds.fasta
+
+Version: 4.4
+
+System information:
+  OS: Linux-4.4.0-112-generic-x86_64-with-Ubuntu-16.04-xenial (linux_64)
+  Python version: 2.7.12
+  CPUs number: 40
+
+Started: 2018-03-08 21:30:51
+
+Logging to /scratch/jackson/mix_path_asm/NIST_5-spades/quast_results/results_2018_03_08_21_30_51/quast.log
+NOTICE: Maximum number of threads is set to 10 (use --threads option to set it manually)
+
+CWD: /scratch/jackson/mix_path_asm/NIST_5-spades
+Main parameters: 
+  Threads: 10, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Contigs:
+  Pre-processing...
+  scaffolds.fasta ==> scaffolds
+
+2018-03-08 21:30:54
+Running Basic statistics processor...
+  Contig files: 
+    scaffolds
+  Calculating N50 and L50...
+    scaffolds, N50 = 146520, L50 = 11, Total length = 5389465, GC % = 50.00, # N's per 100 kbp =  18.59
+  Drawing Nx plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_5-spades/quast_results/results_2018_03_08_21_30_51/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_5-spades/quast_results/results_2018_03_08_21_30_51/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_5-spades/quast_results/results_2018_03_08_21_30_51/basic_stats/GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 3x)...
+    saved to /scratch/jackson/mix_path_asm/NIST_5-spades/quast_results/results_2018_03_08_21_30_51/basic_stats/coverage_histogram.pdf
+  Drawing scaffolds coverage histogram (bin size: 3x)...
+    saved to /scratch/jackson/mix_path_asm/NIST_5-spades/quast_results/results_2018_03_08_21_30_51/basic_stats/scaffolds_coverage_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2018-03-08 21:30:55
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2018-03-08 21:30:56
+RESULTS:
+  Text versions of total report are saved to /scratch/jackson/mix_path_asm/NIST_5-spades/quast_results/results_2018_03_08_21_30_51/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /scratch/jackson/mix_path_asm/NIST_5-spades/quast_results/results_2018_03_08_21_30_51/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /scratch/jackson/mix_path_asm/NIST_5-spades/quast_results/results_2018_03_08_21_30_51/report.html
+  PDF version (tables and plots) is saved to /scratch/jackson/mix_path_asm/NIST_5-spades/quast_results/results_2018_03_08_21_30_51/report.pdf
+  Icarus (contig browser) is saved to /scratch/jackson/mix_path_asm/NIST_5-spades/quast_results/results_2018_03_08_21_30_51/icarus.html
+  Log saved to /scratch/jackson/mix_path_asm/NIST_5-spades/quast_results/results_2018_03_08_21_30_51/quast.log
+
+Finished: 2018-03-08 21:30:56
+Elapsed time: 0:00:04.434707
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
+/scratch/nolson/quast-4.4/quast.py scaffolds.fasta
+
+Version: 4.4
+
+System information:
+  OS: Linux-4.4.0-112-generic-x86_64-with-Ubuntu-16.04-xenial (linux_64)
+  Python version: 2.7.12
+  CPUs number: 40
+
+Started: 2018-03-08 21:30:56
+
+Logging to /scratch/jackson/mix_path_asm/NIST_6-spades/quast_results/results_2018_03_08_21_30_56/quast.log
+NOTICE: Maximum number of threads is set to 10 (use --threads option to set it manually)
+
+CWD: /scratch/jackson/mix_path_asm/NIST_6-spades
+Main parameters: 
+  Threads: 10, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Contigs:
+  Pre-processing...
+  scaffolds.fasta ==> scaffolds
+
+2018-03-08 21:30:59
+Running Basic statistics processor...
+  Contig files: 
+    scaffolds
+  Calculating N50 and L50...
+    scaffolds, N50 = 78663, L50 = 24, Total length = 6746060, GC % = 49.27, # N's per 100 kbp =  118.66
+  Drawing Nx plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_6-spades/quast_results/results_2018_03_08_21_30_56/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_6-spades/quast_results/results_2018_03_08_21_30_56/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_6-spades/quast_results/results_2018_03_08_21_30_56/basic_stats/GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 3x)...
+    saved to /scratch/jackson/mix_path_asm/NIST_6-spades/quast_results/results_2018_03_08_21_30_56/basic_stats/coverage_histogram.pdf
+  Drawing scaffolds coverage histogram (bin size: 3x)...
+    saved to /scratch/jackson/mix_path_asm/NIST_6-spades/quast_results/results_2018_03_08_21_30_56/basic_stats/scaffolds_coverage_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2018-03-08 21:31:00
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2018-03-08 21:31:01
+RESULTS:
+  Text versions of total report are saved to /scratch/jackson/mix_path_asm/NIST_6-spades/quast_results/results_2018_03_08_21_30_56/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /scratch/jackson/mix_path_asm/NIST_6-spades/quast_results/results_2018_03_08_21_30_56/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /scratch/jackson/mix_path_asm/NIST_6-spades/quast_results/results_2018_03_08_21_30_56/report.html
+  PDF version (tables and plots) is saved to /scratch/jackson/mix_path_asm/NIST_6-spades/quast_results/results_2018_03_08_21_30_56/report.pdf
+  Icarus (contig browser) is saved to /scratch/jackson/mix_path_asm/NIST_6-spades/quast_results/results_2018_03_08_21_30_56/icarus.html
+  Log saved to /scratch/jackson/mix_path_asm/NIST_6-spades/quast_results/results_2018_03_08_21_30_56/quast.log
+
+Finished: 2018-03-08 21:31:01
+Elapsed time: 0:00:04.760695
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
+/scratch/nolson/quast-4.4/quast.py scaffolds.fasta
+
+Version: 4.4
+
+System information:
+  OS: Linux-4.4.0-112-generic-x86_64-with-Ubuntu-16.04-xenial (linux_64)
+  Python version: 2.7.12
+  CPUs number: 40
+
+Started: 2018-03-08 21:31:01
+
+Logging to /scratch/jackson/mix_path_asm/NIST_7-spades/quast_results/results_2018_03_08_21_31_01/quast.log
+NOTICE: Maximum number of threads is set to 10 (use --threads option to set it manually)
+
+CWD: /scratch/jackson/mix_path_asm/NIST_7-spades
+Main parameters: 
+  Threads: 10, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Contigs:
+  Pre-processing...
+  scaffolds.fasta ==> scaffolds
+
+2018-03-08 21:31:03
+Running Basic statistics processor...
+  Contig files: 
+    scaffolds
+  Calculating N50 and L50...
+    scaffolds, N50 = 287587, L50 = 3, Total length = 2967254, GC % = 32.85, # N's per 100 kbp =  21.23
+  Drawing Nx plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_7-spades/quast_results/results_2018_03_08_21_31_01/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_7-spades/quast_results/results_2018_03_08_21_31_01/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_7-spades/quast_results/results_2018_03_08_21_31_01/basic_stats/GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 10x)...
+    saved to /scratch/jackson/mix_path_asm/NIST_7-spades/quast_results/results_2018_03_08_21_31_01/basic_stats/coverage_histogram.pdf
+  Drawing scaffolds coverage histogram (bin size: 10x)...
+    saved to /scratch/jackson/mix_path_asm/NIST_7-spades/quast_results/results_2018_03_08_21_31_01/basic_stats/scaffolds_coverage_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2018-03-08 21:31:05
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2018-03-08 21:31:05
+RESULTS:
+  Text versions of total report are saved to /scratch/jackson/mix_path_asm/NIST_7-spades/quast_results/results_2018_03_08_21_31_01/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /scratch/jackson/mix_path_asm/NIST_7-spades/quast_results/results_2018_03_08_21_31_01/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /scratch/jackson/mix_path_asm/NIST_7-spades/quast_results/results_2018_03_08_21_31_01/report.html
+  PDF version (tables and plots) is saved to /scratch/jackson/mix_path_asm/NIST_7-spades/quast_results/results_2018_03_08_21_31_01/report.pdf
+  Icarus (contig browser) is saved to /scratch/jackson/mix_path_asm/NIST_7-spades/quast_results/results_2018_03_08_21_31_01/icarus.html
+  Log saved to /scratch/jackson/mix_path_asm/NIST_7-spades/quast_results/results_2018_03_08_21_31_01/quast.log
+
+Finished: 2018-03-08 21:31:05
+Elapsed time: 0:00:04.269771
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
+/scratch/nolson/quast-4.4/quast.py scaffolds.fasta
+
+Version: 4.4
+
+System information:
+  OS: Linux-4.4.0-112-generic-x86_64-with-Ubuntu-16.04-xenial (linux_64)
+  Python version: 2.7.12
+  CPUs number: 40
+
+Started: 2018-03-08 21:31:05
+
+Logging to /scratch/jackson/mix_path_asm/NIST_8-spades/quast_results/results_2018_03_08_21_31_05/quast.log
+NOTICE: Maximum number of threads is set to 10 (use --threads option to set it manually)
+
+CWD: /scratch/jackson/mix_path_asm/NIST_8-spades
+Main parameters: 
+  Threads: 10, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Contigs:
+  Pre-processing...
+  scaffolds.fasta ==> scaffolds
+
+2018-03-08 21:31:08
+Running Basic statistics processor...
+  Contig files: 
+    scaffolds
+  Calculating N50 and L50...
+    scaffolds, N50 = 620839, L50 = 6, Total length = 10838213, GC % = 54.96, # N's per 100 kbp =  44.99
+  Drawing Nx plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_8-spades/quast_results/results_2018_03_08_21_31_05/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_8-spades/quast_results/results_2018_03_08_21_31_05/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_8-spades/quast_results/results_2018_03_08_21_31_05/basic_stats/GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 1x)...
+    saved to /scratch/jackson/mix_path_asm/NIST_8-spades/quast_results/results_2018_03_08_21_31_05/basic_stats/coverage_histogram.pdf
+  Drawing scaffolds coverage histogram (bin size: 1x)...
+    saved to /scratch/jackson/mix_path_asm/NIST_8-spades/quast_results/results_2018_03_08_21_31_05/basic_stats/scaffolds_coverage_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2018-03-08 21:31:10
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2018-03-08 21:31:10
+RESULTS:
+  Text versions of total report are saved to /scratch/jackson/mix_path_asm/NIST_8-spades/quast_results/results_2018_03_08_21_31_05/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /scratch/jackson/mix_path_asm/NIST_8-spades/quast_results/results_2018_03_08_21_31_05/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /scratch/jackson/mix_path_asm/NIST_8-spades/quast_results/results_2018_03_08_21_31_05/report.html
+  PDF version (tables and plots) is saved to /scratch/jackson/mix_path_asm/NIST_8-spades/quast_results/results_2018_03_08_21_31_05/report.pdf
+  Icarus (contig browser) is saved to /scratch/jackson/mix_path_asm/NIST_8-spades/quast_results/results_2018_03_08_21_31_05/icarus.html
+  Log saved to /scratch/jackson/mix_path_asm/NIST_8-spades/quast_results/results_2018_03_08_21_31_05/quast.log
+
+Finished: 2018-03-08 21:31:10
+Elapsed time: 0:00:05.240704
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
+/scratch/nolson/quast-4.4/quast.py scaffolds.fasta
+
+Version: 4.4
+
+System information:
+  OS: Linux-4.4.0-112-generic-x86_64-with-Ubuntu-16.04-xenial (linux_64)
+  Python version: 2.7.12
+  CPUs number: 40
+
+Started: 2018-03-08 21:31:11
+
+Logging to /scratch/jackson/mix_path_asm/NIST_9-spades/quast_results/results_2018_03_08_21_31_11/quast.log
+NOTICE: Maximum number of threads is set to 10 (use --threads option to set it manually)
+
+CWD: /scratch/jackson/mix_path_asm/NIST_9-spades
+Main parameters: 
+  Threads: 10, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Contigs:
+  Pre-processing...
+  scaffolds.fasta ==> scaffolds
+
+2018-03-08 21:31:14
+Running Basic statistics processor...
+  Contig files: 
+    scaffolds
+  Calculating N50 and L50...
+    scaffolds, N50 = 3656, L50 = 55, Total length = 3957052, GC % = 38.12, # N's per 100 kbp =  170.91
+  Drawing Nx plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_9-spades/quast_results/results_2018_03_08_21_31_11/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_9-spades/quast_results/results_2018_03_08_21_31_11/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_9-spades/quast_results/results_2018_03_08_21_31_11/basic_stats/GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 221x)...
+    saved to /scratch/jackson/mix_path_asm/NIST_9-spades/quast_results/results_2018_03_08_21_31_11/basic_stats/coverage_histogram.pdf
+  Drawing scaffolds coverage histogram (bin size: 221x)...
+    saved to /scratch/jackson/mix_path_asm/NIST_9-spades/quast_results/results_2018_03_08_21_31_11/basic_stats/scaffolds_coverage_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2018-03-08 21:31:15
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2018-03-08 21:31:16
+RESULTS:
+  Text versions of total report are saved to /scratch/jackson/mix_path_asm/NIST_9-spades/quast_results/results_2018_03_08_21_31_11/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /scratch/jackson/mix_path_asm/NIST_9-spades/quast_results/results_2018_03_08_21_31_11/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /scratch/jackson/mix_path_asm/NIST_9-spades/quast_results/results_2018_03_08_21_31_11/report.html
+  PDF version (tables and plots) is saved to /scratch/jackson/mix_path_asm/NIST_9-spades/quast_results/results_2018_03_08_21_31_11/report.pdf
+  Icarus (contig browser) is saved to /scratch/jackson/mix_path_asm/NIST_9-spades/quast_results/results_2018_03_08_21_31_11/icarus.html
+  Log saved to /scratch/jackson/mix_path_asm/NIST_9-spades/quast_results/results_2018_03_08_21_31_11/quast.log
+
+Finished: 2018-03-08 21:31:16
+Elapsed time: 0:00:05.073194
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
+/scratch/nolson/quast-4.4/quast.py scaffolds.fasta
+
+Version: 4.4
+
+System information:
+  OS: Linux-4.4.0-112-generic-x86_64-with-Ubuntu-16.04-xenial (linux_64)
+  Python version: 2.7.12
+  CPUs number: 40
+
+Started: 2018-03-08 21:31:16
+
+Logging to /scratch/jackson/mix_path_asm/NIST_10-spades/quast_results/results_2018_03_08_21_31_16/quast.log
+NOTICE: Maximum number of threads is set to 10 (use --threads option to set it manually)
+
+CWD: /scratch/jackson/mix_path_asm/NIST_10-spades
+Main parameters: 
+  Threads: 10, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Contigs:
+  Pre-processing...
+  scaffolds.fasta ==> scaffolds
+
+2018-03-08 21:31:19
+Running Basic statistics processor...
+  Contig files: 
+    scaffolds
+  Calculating N50 and L50...
+    scaffolds, N50 = 349360, L50 = 5, Total length = 6010037, GC % = 47.29, # N's per 100 kbp =  82.48
+  Drawing Nx plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_10-spades/quast_results/results_2018_03_08_21_31_16/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_10-spades/quast_results/results_2018_03_08_21_31_16/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_10-spades/quast_results/results_2018_03_08_21_31_16/basic_stats/GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 122x)...
+    saved to /scratch/jackson/mix_path_asm/NIST_10-spades/quast_results/results_2018_03_08_21_31_16/basic_stats/coverage_histogram.pdf
+  Drawing scaffolds coverage histogram (bin size: 122x)...
+    saved to /scratch/jackson/mix_path_asm/NIST_10-spades/quast_results/results_2018_03_08_21_31_16/basic_stats/scaffolds_coverage_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2018-03-08 21:31:20
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2018-03-08 21:31:21
+RESULTS:
+  Text versions of total report are saved to /scratch/jackson/mix_path_asm/NIST_10-spades/quast_results/results_2018_03_08_21_31_16/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /scratch/jackson/mix_path_asm/NIST_10-spades/quast_results/results_2018_03_08_21_31_16/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /scratch/jackson/mix_path_asm/NIST_10-spades/quast_results/results_2018_03_08_21_31_16/report.html
+  PDF version (tables and plots) is saved to /scratch/jackson/mix_path_asm/NIST_10-spades/quast_results/results_2018_03_08_21_31_16/report.pdf
+  Icarus (contig browser) is saved to /scratch/jackson/mix_path_asm/NIST_10-spades/quast_results/results_2018_03_08_21_31_16/icarus.html
+  Log saved to /scratch/jackson/mix_path_asm/NIST_10-spades/quast_results/results_2018_03_08_21_31_16/quast.log
+
+Finished: 2018-03-08 21:31:21
+Elapsed time: 0:00:05.126949
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
+/scratch/nolson/quast-4.4/quast.py scaffolds.fasta
+
+Version: 4.4
+
+System information:
+  OS: Linux-4.4.0-112-generic-x86_64-with-Ubuntu-16.04-xenial (linux_64)
+  Python version: 2.7.12
+  CPUs number: 40
+
+Started: 2018-03-08 21:31:21
+
+Logging to /scratch/jackson/mix_path_asm/NIST_11-spades/quast_results/results_2018_03_08_21_31_21/quast.log
+NOTICE: Maximum number of threads is set to 10 (use --threads option to set it manually)
+
+CWD: /scratch/jackson/mix_path_asm/NIST_11-spades
+Main parameters: 
+  Threads: 10, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Contigs:
+  Pre-processing...
+  scaffolds.fasta ==> scaffolds
+
+2018-03-08 21:31:24
+Running Basic statistics processor...
+  Contig files: 
+    scaffolds
+  Calculating N50 and L50...
+    scaffolds, N50 = 212298, L50 = 11, Total length = 5889240, GC % = 56.59, # N's per 100 kbp =  24.52
+  Drawing Nx plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_11-spades/quast_results/results_2018_03_08_21_31_21/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_11-spades/quast_results/results_2018_03_08_21_31_21/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_11-spades/quast_results/results_2018_03_08_21_31_21/basic_stats/GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 5x)...
+    saved to /scratch/jackson/mix_path_asm/NIST_11-spades/quast_results/results_2018_03_08_21_31_21/basic_stats/coverage_histogram.pdf
+  Drawing scaffolds coverage histogram (bin size: 5x)...
+    saved to /scratch/jackson/mix_path_asm/NIST_11-spades/quast_results/results_2018_03_08_21_31_21/basic_stats/scaffolds_coverage_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2018-03-08 21:31:25
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2018-03-08 21:31:25
+RESULTS:
+  Text versions of total report are saved to /scratch/jackson/mix_path_asm/NIST_11-spades/quast_results/results_2018_03_08_21_31_21/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /scratch/jackson/mix_path_asm/NIST_11-spades/quast_results/results_2018_03_08_21_31_21/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /scratch/jackson/mix_path_asm/NIST_11-spades/quast_results/results_2018_03_08_21_31_21/report.html
+  PDF version (tables and plots) is saved to /scratch/jackson/mix_path_asm/NIST_11-spades/quast_results/results_2018_03_08_21_31_21/report.pdf
+  Icarus (contig browser) is saved to /scratch/jackson/mix_path_asm/NIST_11-spades/quast_results/results_2018_03_08_21_31_21/icarus.html
+  Log saved to /scratch/jackson/mix_path_asm/NIST_11-spades/quast_results/results_2018_03_08_21_31_21/quast.log
+
+Finished: 2018-03-08 21:31:25
+Elapsed time: 0:00:04.432380
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
+/scratch/nolson/quast-4.4/quast.py scaffolds.fasta
+
+Version: 4.4
+
+System information:
+  OS: Linux-4.4.0-112-generic-x86_64-with-Ubuntu-16.04-xenial (linux_64)
+  Python version: 2.7.12
+  CPUs number: 40
+
+Started: 2018-03-08 21:31:26
+
+Logging to /scratch/jackson/mix_path_asm/NIST_12-spades/quast_results/results_2018_03_08_21_31_26/quast.log
+NOTICE: Maximum number of threads is set to 10 (use --threads option to set it manually)
+
+CWD: /scratch/jackson/mix_path_asm/NIST_12-spades
+Main parameters: 
+  Threads: 10, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Contigs:
+  Pre-processing...
+  scaffolds.fasta ==> scaffolds
+
+2018-03-08 21:31:29
+Running Basic statistics processor...
+  Contig files: 
+    scaffolds
+  Calculating N50 and L50...
+    scaffolds, N50 = 21954, L50 = 69, Total length = 5388982, GC % = 49.86, # N's per 100 kbp =  282.80
+  Drawing Nx plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_12-spades/quast_results/results_2018_03_08_21_31_26/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_12-spades/quast_results/results_2018_03_08_21_31_26/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_12-spades/quast_results/results_2018_03_08_21_31_26/basic_stats/GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 3x)...
+    saved to /scratch/jackson/mix_path_asm/NIST_12-spades/quast_results/results_2018_03_08_21_31_26/basic_stats/coverage_histogram.pdf
+  Drawing scaffolds coverage histogram (bin size: 3x)...
+    saved to /scratch/jackson/mix_path_asm/NIST_12-spades/quast_results/results_2018_03_08_21_31_26/basic_stats/scaffolds_coverage_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2018-03-08 21:31:30
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2018-03-08 21:31:30
+RESULTS:
+  Text versions of total report are saved to /scratch/jackson/mix_path_asm/NIST_12-spades/quast_results/results_2018_03_08_21_31_26/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /scratch/jackson/mix_path_asm/NIST_12-spades/quast_results/results_2018_03_08_21_31_26/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /scratch/jackson/mix_path_asm/NIST_12-spades/quast_results/results_2018_03_08_21_31_26/report.html
+  PDF version (tables and plots) is saved to /scratch/jackson/mix_path_asm/NIST_12-spades/quast_results/results_2018_03_08_21_31_26/report.pdf
+  Icarus (contig browser) is saved to /scratch/jackson/mix_path_asm/NIST_12-spades/quast_results/results_2018_03_08_21_31_26/icarus.html
+  Log saved to /scratch/jackson/mix_path_asm/NIST_12-spades/quast_results/results_2018_03_08_21_31_26/quast.log
+
+Finished: 2018-03-08 21:31:30
+Elapsed time: 0:00:04.622124
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
+/scratch/nolson/quast-4.4/quast.py scaffolds.fasta
+
+Version: 4.4
+
+System information:
+  OS: Linux-4.4.0-112-generic-x86_64-with-Ubuntu-16.04-xenial (linux_64)
+  Python version: 2.7.12
+  CPUs number: 40
+
+Started: 2018-03-08 21:31:30
+
+Logging to /scratch/jackson/mix_path_asm/NIST_13-spades/quast_results/results_2018_03_08_21_31_30/quast.log
+NOTICE: Maximum number of threads is set to 10 (use --threads option to set it manually)
+
+CWD: /scratch/jackson/mix_path_asm/NIST_13-spades
+Main parameters: 
+  Threads: 10, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Contigs:
+  Pre-processing...
+  scaffolds.fasta ==> scaffolds
+
+2018-03-08 21:31:33
+Running Basic statistics processor...
+  Contig files: 
+    scaffolds
+  Calculating N50 and L50...
+    scaffolds, N50 = 245430, L50 = 8, Total length = 8987028, GC % = 49.35, # N's per 100 kbp =  153.88
+  Drawing Nx plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_13-spades/quast_results/results_2018_03_08_21_31_30/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_13-spades/quast_results/results_2018_03_08_21_31_30/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_13-spades/quast_results/results_2018_03_08_21_31_30/basic_stats/GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 50x)...
+    saved to /scratch/jackson/mix_path_asm/NIST_13-spades/quast_results/results_2018_03_08_21_31_30/basic_stats/coverage_histogram.pdf
+  Drawing scaffolds coverage histogram (bin size: 50x)...
+    saved to /scratch/jackson/mix_path_asm/NIST_13-spades/quast_results/results_2018_03_08_21_31_30/basic_stats/scaffolds_coverage_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2018-03-08 21:31:35
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2018-03-08 21:31:36
+RESULTS:
+  Text versions of total report are saved to /scratch/jackson/mix_path_asm/NIST_13-spades/quast_results/results_2018_03_08_21_31_30/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /scratch/jackson/mix_path_asm/NIST_13-spades/quast_results/results_2018_03_08_21_31_30/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /scratch/jackson/mix_path_asm/NIST_13-spades/quast_results/results_2018_03_08_21_31_30/report.html
+  PDF version (tables and plots) is saved to /scratch/jackson/mix_path_asm/NIST_13-spades/quast_results/results_2018_03_08_21_31_30/report.pdf
+  Icarus (contig browser) is saved to /scratch/jackson/mix_path_asm/NIST_13-spades/quast_results/results_2018_03_08_21_31_30/icarus.html
+  Log saved to /scratch/jackson/mix_path_asm/NIST_13-spades/quast_results/results_2018_03_08_21_31_30/quast.log
+
+Finished: 2018-03-08 21:31:36
+Elapsed time: 0:00:05.489753
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
+/scratch/nolson/quast-4.4/quast.py scaffolds.fasta
+
+Version: 4.4
+
+System information:
+  OS: Linux-4.4.0-112-generic-x86_64-with-Ubuntu-16.04-xenial (linux_64)
+  Python version: 2.7.12
+  CPUs number: 40
+
+Started: 2018-03-08 21:31:36
+
+Logging to /scratch/jackson/mix_path_asm/NIST_14-spades/quast_results/results_2018_03_08_21_31_36/quast.log
+NOTICE: Maximum number of threads is set to 10 (use --threads option to set it manually)
+
+CWD: /scratch/jackson/mix_path_asm/NIST_14-spades
+Main parameters: 
+  Threads: 10, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Contigs:
+  Pre-processing...
+  scaffolds.fasta ==> scaffolds
+
+2018-03-08 21:31:39
+Running Basic statistics processor...
+  Contig files: 
+    scaffolds
+  Calculating N50 and L50...
+    scaffolds, N50 = 225110, L50 = 6, Total length = 4672881, GC % = 37.90, # N's per 100 kbp =  227.76
+  Drawing Nx plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_14-spades/quast_results/results_2018_03_08_21_31_36/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_14-spades/quast_results/results_2018_03_08_21_31_36/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_14-spades/quast_results/results_2018_03_08_21_31_36/basic_stats/GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 126x)...
+    saved to /scratch/jackson/mix_path_asm/NIST_14-spades/quast_results/results_2018_03_08_21_31_36/basic_stats/coverage_histogram.pdf
+  Drawing scaffolds coverage histogram (bin size: 126x)...
+    saved to /scratch/jackson/mix_path_asm/NIST_14-spades/quast_results/results_2018_03_08_21_31_36/basic_stats/scaffolds_coverage_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2018-03-08 21:31:40
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2018-03-08 21:31:41
+RESULTS:
+  Text versions of total report are saved to /scratch/jackson/mix_path_asm/NIST_14-spades/quast_results/results_2018_03_08_21_31_36/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /scratch/jackson/mix_path_asm/NIST_14-spades/quast_results/results_2018_03_08_21_31_36/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /scratch/jackson/mix_path_asm/NIST_14-spades/quast_results/results_2018_03_08_21_31_36/report.html
+  PDF version (tables and plots) is saved to /scratch/jackson/mix_path_asm/NIST_14-spades/quast_results/results_2018_03_08_21_31_36/report.pdf
+  Icarus (contig browser) is saved to /scratch/jackson/mix_path_asm/NIST_14-spades/quast_results/results_2018_03_08_21_31_36/icarus.html
+  Log saved to /scratch/jackson/mix_path_asm/NIST_14-spades/quast_results/results_2018_03_08_21_31_36/quast.log
+
+Finished: 2018-03-08 21:31:41
+Elapsed time: 0:00:04.886424
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
+/scratch/nolson/quast-4.4/quast.py scaffolds.fasta
+
+Version: 4.4
+
+System information:
+  OS: Linux-4.4.0-112-generic-x86_64-with-Ubuntu-16.04-xenial (linux_64)
+  Python version: 2.7.12
+  CPUs number: 40
+
+Started: 2018-03-08 21:31:41
+
+Logging to /scratch/jackson/mix_path_asm/NIST_15-spades/quast_results/results_2018_03_08_21_31_41/quast.log
+NOTICE: Maximum number of threads is set to 10 (use --threads option to set it manually)
+
+CWD: /scratch/jackson/mix_path_asm/NIST_15-spades
+Main parameters: 
+  Threads: 10, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Contigs:
+  Pre-processing...
+  scaffolds.fasta ==> scaffolds
+
+2018-03-08 21:31:44
+Running Basic statistics processor...
+  Contig files: 
+    scaffolds
+  Calculating N50 and L50...
+    scaffolds, N50 = 194327, L50 = 6, Total length = 3189921, GC % = 37.56, # N's per 100 kbp =  75.93
+  Drawing Nx plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_15-spades/quast_results/results_2018_03_08_21_31_41/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_15-spades/quast_results/results_2018_03_08_21_31_41/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_15-spades/quast_results/results_2018_03_08_21_31_41/basic_stats/GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 53x)...
+    saved to /scratch/jackson/mix_path_asm/NIST_15-spades/quast_results/results_2018_03_08_21_31_41/basic_stats/coverage_histogram.pdf
+  Drawing scaffolds coverage histogram (bin size: 53x)...
+    saved to /scratch/jackson/mix_path_asm/NIST_15-spades/quast_results/results_2018_03_08_21_31_41/basic_stats/scaffolds_coverage_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2018-03-08 21:31:45
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2018-03-08 21:31:45
+RESULTS:
+  Text versions of total report are saved to /scratch/jackson/mix_path_asm/NIST_15-spades/quast_results/results_2018_03_08_21_31_41/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /scratch/jackson/mix_path_asm/NIST_15-spades/quast_results/results_2018_03_08_21_31_41/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /scratch/jackson/mix_path_asm/NIST_15-spades/quast_results/results_2018_03_08_21_31_41/report.html
+  PDF version (tables and plots) is saved to /scratch/jackson/mix_path_asm/NIST_15-spades/quast_results/results_2018_03_08_21_31_41/report.pdf
+  Icarus (contig browser) is saved to /scratch/jackson/mix_path_asm/NIST_15-spades/quast_results/results_2018_03_08_21_31_41/icarus.html
+  Log saved to /scratch/jackson/mix_path_asm/NIST_15-spades/quast_results/results_2018_03_08_21_31_41/quast.log
+
+Finished: 2018-03-08 21:31:45
+Elapsed time: 0:00:04.298372
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
+/scratch/nolson/quast-4.4/quast.py scaffolds.fasta
+
+Version: 4.4
+
+System information:
+  OS: Linux-4.4.0-112-generic-x86_64-with-Ubuntu-16.04-xenial (linux_64)
+  Python version: 2.7.12
+  CPUs number: 40
+
+Started: 2018-03-08 21:31:45
+
+Logging to /scratch/jackson/mix_path_asm/NIST_16-spades/quast_results/results_2018_03_08_21_31_45/quast.log
+NOTICE: Maximum number of threads is set to 10 (use --threads option to set it manually)
+
+CWD: /scratch/jackson/mix_path_asm/NIST_16-spades
+Main parameters: 
+  Threads: 10, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Contigs:
+  Pre-processing...
+  scaffolds.fasta ==> scaffolds
+
+2018-03-08 21:31:48
+Running Basic statistics processor...
+  Contig files: 
+    scaffolds
+  Calculating N50 and L50...
+    scaffolds, N50 = 274695, L50 = 4, Total length = 3803640, GC % = 38.69, # N's per 100 kbp =  59.47
+  Drawing Nx plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_16-spades/quast_results/results_2018_03_08_21_31_45/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_16-spades/quast_results/results_2018_03_08_21_31_45/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_16-spades/quast_results/results_2018_03_08_21_31_45/basic_stats/GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 17x)...
+    saved to /scratch/jackson/mix_path_asm/NIST_16-spades/quast_results/results_2018_03_08_21_31_45/basic_stats/coverage_histogram.pdf
+  Drawing scaffolds coverage histogram (bin size: 17x)...
+    saved to /scratch/jackson/mix_path_asm/NIST_16-spades/quast_results/results_2018_03_08_21_31_45/basic_stats/scaffolds_coverage_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2018-03-08 21:31:49
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2018-03-08 21:31:50
+RESULTS:
+  Text versions of total report are saved to /scratch/jackson/mix_path_asm/NIST_16-spades/quast_results/results_2018_03_08_21_31_45/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /scratch/jackson/mix_path_asm/NIST_16-spades/quast_results/results_2018_03_08_21_31_45/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /scratch/jackson/mix_path_asm/NIST_16-spades/quast_results/results_2018_03_08_21_31_45/report.html
+  PDF version (tables and plots) is saved to /scratch/jackson/mix_path_asm/NIST_16-spades/quast_results/results_2018_03_08_21_31_45/report.pdf
+  Icarus (contig browser) is saved to /scratch/jackson/mix_path_asm/NIST_16-spades/quast_results/results_2018_03_08_21_31_45/icarus.html
+  Log saved to /scratch/jackson/mix_path_asm/NIST_16-spades/quast_results/results_2018_03_08_21_31_45/quast.log
+
+Finished: 2018-03-08 21:31:50
+Elapsed time: 0:00:04.592420
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
+/scratch/nolson/quast-4.4/quast.py scaffolds.fasta
+
+Version: 4.4
+
+System information:
+  OS: Linux-4.4.0-112-generic-x86_64-with-Ubuntu-16.04-xenial (linux_64)
+  Python version: 2.7.12
+  CPUs number: 40
+
+Started: 2018-03-08 21:31:50
+
+Logging to /scratch/jackson/mix_path_asm/NIST_17-spades/quast_results/results_2018_03_08_21_31_50/quast.log
+NOTICE: Maximum number of threads is set to 10 (use --threads option to set it manually)
+
+CWD: /scratch/jackson/mix_path_asm/NIST_17-spades
+Main parameters: 
+  Threads: 10, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Contigs:
+  Pre-processing...
+  scaffolds.fasta ==> scaffolds
+
+2018-03-08 21:31:53
+Running Basic statistics processor...
+  Contig files: 
+    scaffolds
+  Calculating N50 and L50...
+    scaffolds, N50 = 236847, L50 = 6, Total length = 6628048, GC % = 47.74, # N's per 100 kbp =  13.01
+  Drawing Nx plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_17-spades/quast_results/results_2018_03_08_21_31_50/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_17-spades/quast_results/results_2018_03_08_21_31_50/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /scratch/jackson/mix_path_asm/NIST_17-spades/quast_results/results_2018_03_08_21_31_50/basic_stats/GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 70x)...
+    saved to /scratch/jackson/mix_path_asm/NIST_17-spades/quast_results/results_2018_03_08_21_31_50/basic_stats/coverage_histogram.pdf
+  Drawing scaffolds coverage histogram (bin size: 70x)...
+    saved to /scratch/jackson/mix_path_asm/NIST_17-spades/quast_results/results_2018_03_08_21_31_50/basic_stats/scaffolds_coverage_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2018-03-08 21:31:54
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2018-03-08 21:31:55
+RESULTS:
+  Text versions of total report are saved to /scratch/jackson/mix_path_asm/NIST_17-spades/quast_results/results_2018_03_08_21_31_50/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /scratch/jackson/mix_path_asm/NIST_17-spades/quast_results/results_2018_03_08_21_31_50/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /scratch/jackson/mix_path_asm/NIST_17-spades/quast_results/results_2018_03_08_21_31_50/report.html
+  PDF version (tables and plots) is saved to /scratch/jackson/mix_path_asm/NIST_17-spades/quast_results/results_2018_03_08_21_31_50/report.pdf
+  Icarus (contig browser) is saved to /scratch/jackson/mix_path_asm/NIST_17-spades/quast_results/results_2018_03_08_21_31_50/icarus.html
+  Log saved to /scratch/jackson/mix_path_asm/NIST_17-spades/quast_results/results_2018_03_08_21_31_50/quast.log
+
+Finished: 2018-03-08 21:31:55
+Elapsed time: 0:00:04.770241
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

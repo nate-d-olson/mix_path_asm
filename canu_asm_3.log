@@ -1,0 +1,186 @@
+-- Canu 1.7
+--
+-- CITATIONS
+--
+-- Koren S, Walenz BP, Berlin K, Miller JR, Phillippy AM.
+-- Canu: scalable and accurate long-read assembly via adaptive k-mer weighting and repeat separation.
+-- Genome Res. 2017 May;27(5):722-736.
+-- http://doi.org/10.1101/gr.215087.116
+-- 
+-- Read and contig alignments during correction, consensus and GFA building use:
+--   Šošic M, Šikic M.
+--   Edlib: a C/C ++ library for fast, exact sequence alignment using edit distance.
+--   Bioinformatics. 2017 May 1;33(9):1394-1395.
+--   http://doi.org/10.1093/bioinformatics/btw753
+-- 
+-- Overlaps are generated using:
+--   Berlin K, et al.
+--   Assembling large genomes with single-molecule sequencing and locality-sensitive hashing.
+--   Nat Biotechnol. 2015 Jun;33(6):623-30.
+--   http://doi.org/10.1038/nbt.3238
+-- 
+--   Myers EW, et al.
+--   A Whole-Genome Assembly of Drosophila.
+--   Science. 2000 Mar 24;287(5461):2196-204.
+--   http://doi.org/10.1126/science.287.5461.2196
+-- 
+--   Li H.
+--   Minimap and miniasm: fast mapping and de novo assembly for noisy long sequences.
+--   Bioinformatics. 2016 Jul 15;32(14):2103-10.
+--   http://doi.org/10.1093/bioinformatics/btw152
+-- 
+-- Corrected read consensus sequences are generated using an algorithm derived from FALCON-sense:
+--   Chin CS, et al.
+--   Phased diploid genome assembly with single-molecule real-time sequencing.
+--   Nat Methods. 2016 Dec;13(12):1050-1054.
+--   http://doi.org/10.1038/nmeth.4035
+-- 
+-- Contig consensus sequences are generated using an algorithm derived from pbdagcon:
+--   Chin CS, et al.
+--   Nonhybrid, finished microbial genome assemblies from long-read SMRT sequencing data.
+--   Nat Methods. 2013 Jun;10(6):563-9
+--   http://doi.org/10.1038/nmeth.2474
+-- 
+-- CONFIGURE CANU
+--
+-- Detected Java(TM) Runtime Environment '1.8.0_161' (from '/usr/lib/jvm/java-8-oracle/bin/java').
+-- Detected gnuplot version '5.0 patchlevel 3' (from 'gnuplot') and image format 'png'.
+-- Detected 40 CPUs and 126 gigabytes of memory.
+-- No grid engine detected, grid disabled.
+--
+--                            (tag)Concurrency
+--                     (tag)Threads          |
+--            (tag)Memory         |          |
+--        (tag)         |         |          |     total usage     algorithm
+--        -------  ------  --------   --------  -----------------  -----------------------------
+-- Local: meryl      8 GB    4 CPUs x   1 job      8 GB    4 CPUs  (k-mer counting)
+-- Local: cormhap    6 GB   10 CPUs x   4 jobs    24 GB   40 CPUs  (overlap detection with mhap)
+-- Local: obtovl     4 GB    8 CPUs x   5 jobs    20 GB   40 CPUs  (overlap detection)
+-- Local: utgovl     4 GB    8 CPUs x   5 jobs    20 GB   40 CPUs  (overlap detection)
+-- Local: ovb        3 GB    1 CPU  x  40 jobs   120 GB   40 CPUs  (overlap store bucketizer)
+-- Local: ovs        8 GB    1 CPU  x  15 jobs   120 GB   15 CPUs  (overlap store sorting)
+-- Local: red        4 GB    4 CPUs x  10 jobs    40 GB   40 CPUs  (read error detection)
+-- Local: oea        4 GB    1 CPU  x  31 jobs   124 GB   31 CPUs  (overlap error adjustment)
+-- Local: bat       16 GB    4 CPUs x   1 job     16 GB    4 CPUs  (contig construction)
+-- Local: gfa        8 GB    4 CPUs x   1 job      8 GB    4 CPUs  (GFA alignment and processing)
+--
+-- In 'canu.gkpStore', found PacBio reads:
+--   Raw:        177553
+--   Corrected:  16233
+--   Trimmed:    16005
+--
+-- Generating assembly 'canu' in '/scratch/jackson/mix_path_asm/NIST_1-canu'
+--
+-- Parameters:
+--
+--  genomeSize        5297117
+--
+--  Overlap Generation Limits:
+--    corOvlErrorRate 0.2400 ( 24.00%)
+--    obtOvlErrorRate 0.0450 (  4.50%)
+--    utgOvlErrorRate 0.0450 (  4.50%)
+--
+--  Overlap Processing Limits:
+--    corErrorRate    0.3000 ( 30.00%)
+--    obtErrorRate    0.0450 (  4.50%)
+--    utgErrorRate    0.0450 (  4.50%)
+--    cnsErrorRate    0.0750 (  7.50%)
+--
+-- Bye.
+-- Canu 1.7
+--
+-- CITATIONS
+--
+-- Koren S, Walenz BP, Berlin K, Miller JR, Phillippy AM.
+-- Canu: scalable and accurate long-read assembly via adaptive k-mer weighting and repeat separation.
+-- Genome Res. 2017 May;27(5):722-736.
+-- http://doi.org/10.1101/gr.215087.116
+-- 
+-- Read and contig alignments during correction, consensus and GFA building use:
+--   Šošic M, Šikic M.
+--   Edlib: a C/C ++ library for fast, exact sequence alignment using edit distance.
+--   Bioinformatics. 2017 May 1;33(9):1394-1395.
+--   http://doi.org/10.1093/bioinformatics/btw753
+-- 
+-- Overlaps are generated using:
+--   Berlin K, et al.
+--   Assembling large genomes with single-molecule sequencing and locality-sensitive hashing.
+--   Nat Biotechnol. 2015 Jun;33(6):623-30.
+--   http://doi.org/10.1038/nbt.3238
+-- 
+--   Myers EW, et al.
+--   A Whole-Genome Assembly of Drosophila.
+--   Science. 2000 Mar 24;287(5461):2196-204.
+--   http://doi.org/10.1126/science.287.5461.2196
+-- 
+--   Li H.
+--   Minimap and miniasm: fast mapping and de novo assembly for noisy long sequences.
+--   Bioinformatics. 2016 Jul 15;32(14):2103-10.
+--   http://doi.org/10.1093/bioinformatics/btw152
+-- 
+-- Corrected read consensus sequences are generated using an algorithm derived from FALCON-sense:
+--   Chin CS, et al.
+--   Phased diploid genome assembly with single-molecule real-time sequencing.
+--   Nat Methods. 2016 Dec;13(12):1050-1054.
+--   http://doi.org/10.1038/nmeth.4035
+-- 
+-- Contig consensus sequences are generated using an algorithm derived from pbdagcon:
+--   Chin CS, et al.
+--   Nonhybrid, finished microbial genome assemblies from long-read SMRT sequencing data.
+--   Nat Methods. 2013 Jun;10(6):563-9
+--   http://doi.org/10.1038/nmeth.2474
+-- 
+-- CONFIGURE CANU
+--
+-- Detected Java(TM) Runtime Environment '1.8.0_161' (from '/usr/lib/jvm/java-8-oracle/bin/java').
+-- Detected gnuplot version '5.0 patchlevel 3' (from 'gnuplot') and image format 'png'.
+-- Detected 40 CPUs and 126 gigabytes of memory.
+-- No grid engine detected, grid disabled.
+--
+--                            (tag)Concurrency
+--                     (tag)Threads          |
+--            (tag)Memory         |          |
+--        (tag)         |         |          |     total usage     algorithm
+--        -------  ------  --------   --------  -----------------  -----------------------------
+-- Local: meryl      8 GB    4 CPUs x   1 job      8 GB    4 CPUs  (k-mer counting)
+-- Local: cormhap    6 GB   10 CPUs x   4 jobs    24 GB   40 CPUs  (overlap detection with mhap)
+-- Local: obtovl     4 GB    8 CPUs x   5 jobs    20 GB   40 CPUs  (overlap detection)
+-- Local: utgovl     4 GB    8 CPUs x   5 jobs    20 GB   40 CPUs  (overlap detection)
+-- Local: ovb        3 GB    1 CPU  x  40 jobs   120 GB   40 CPUs  (overlap store bucketizer)
+-- Local: ovs        8 GB    1 CPU  x  15 jobs   120 GB   15 CPUs  (overlap store sorting)
+-- Local: red        4 GB    4 CPUs x  10 jobs    40 GB   40 CPUs  (read error detection)
+-- Local: oea        4 GB    1 CPU  x  31 jobs   124 GB   31 CPUs  (overlap error adjustment)
+-- Local: bat       16 GB    4 CPUs x   1 job     16 GB    4 CPUs  (contig construction)
+-- Local: gfa        8 GB    4 CPUs x   1 job      8 GB    4 CPUs  (GFA alignment and processing)
+--
+-- Found PacBio uncorrected reads in the input files.
+--
+-- Generating assembly 'canu' in '/scratch/jackson/mix_path_asm/NIST_2-canu'
+--
+-- Parameters:
+--
+--  genomeSize        7714010
+--
+--  Overlap Generation Limits:
+--    corOvlErrorRate 0.2400 ( 24.00%)
+--    obtOvlErrorRate 0.0450 (  4.50%)
+--    utgOvlErrorRate 0.0450 (  4.50%)
+--
+--  Overlap Processing Limits:
+--    corErrorRate    0.3000 ( 30.00%)
+--    obtErrorRate    0.0450 (  4.50%)
+--    utgErrorRate    0.0450 (  4.50%)
+--    cnsErrorRate    0.0750 (  7.50%)
+--
+--
+-- BEGIN CORRECTION
+--
+----------------------------------------
+-- Starting command on Fri Mar  9 21:05:45 2018 with 887.046 GB free disk space
+
+    cd .
+    /scratch/nolson/canu-1.7/Linux-amd64/bin/gatekeeperCreate \
+      -minlength 1000 \
+      -o ./canu.gkpStore.BUILDING \
+      ./canu.gkpStore.gkp \
+    > ./canu.gkpStore.BUILDING.err 2>&1
