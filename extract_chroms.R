@@ -2,7 +2,7 @@ library(tidyverse)
 library(Biostrings)
 
 fasta_files <- list.files(path = "../", 
-                          pattern = "fasta", 
+                          pattern = "pilon.fasta", 
                           recursive = TRUE,full.names = TRUE) %>% 
     set_names(str_extract(. , "(?<=mix_path_asm/).*(?=-pilon)"))
 pilon_seqs <- fasta_files %>% map(readDNAStringSet)
