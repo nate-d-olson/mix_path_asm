@@ -1,0 +1,69 @@
+---
+title: "Assembly Summary Table"
+author: "Nate Olson"
+date: "5/16/2018"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+```
+
+
+Table contains the following information 
+Approx. genome size
+
+GC content
+
+Final # Contigs (if >1, don’t think there were many)
+
+## Organism Name
+```{r}
+info_df <- read_tsv(file = "strain_info.txt", col_names = "org_info")  %>% 
+    mutate(info = case_when(str_detect(org_info, "^\\(") ~ "note",
+                            str_detect(org_info, "^NIST") ~ "rm_id",
+                            str_detect(org_info, "^ATCC") ~ "strain_id",
+                            str_detect(org_info, "^[:Alpha:][:alpha:]") ~ "org_name",
+                            str_detect(org_info, "^[:digit:]") ~ "genome_size",
+                            TRUE ~ "other") 
+           )
+info_df <- info_df %>% mutate(rm_id = if_else(info == "rm_id", org_info, "NA"),
+                   rm_id = if_else(rm_id == "NA", lag(rm_id), rm_id),
+                   rm_id = if_else(rm_id == "NA", lag(rm_id), rm_id),
+                   rm_id = if_else(rm_id == "NA", lag(rm_id), rm_id),
+                   rm_id = if_else(rm_id == "NA", lag(rm_id), rm_id)) %>% 
+    filter(info != "rm_id") %>% 
+    spread(info, org_info) %>% 
+    select(rm_id, strain_id, org_name, genome_size, note)
+```
+
+```{r}
+library(Biostrings)
+contigs <- readDNAStringSet("long_contigs.fasta") 
+contig_df <- data_frame(contig_names = names(contigs), 
+                        contig_size = width(contigs))
+
+gc_df <- Biostrings::alphabetFrequency(contigs) %>% 
+    as.data.frame() %>% 
+    add_column(total_bases = rowSums(.)) %>% 
+    select(G, C, total_bases) %>% 
+    mutate(gc = (G + C) / total_bases)
+contig_df <- bind_cols(contig_df, gc_df)
+## sanity check should be 0
+sum(contig_df$contig_size != contig_df$total_bases)
+
+contig_df <- contig_df %>% select(contig_names, contig_size, gc) %>% 
+    separate(contig_names, c("rm_id", "contig_id"), sep = "\\|") %>% 
+    mutate(rm_id = str_replace(rm_id, "_", "RM ")) %>% 
+    right_join(info_df)
+```
+
+```{r}
+contig_df <- contig_df %>% group_by(rm_id) %>% 
+    mutate(total_contig_size = sum(contig_size))
+```
+
+```{r}
+write_tsv(contig_df, path = "assembly_summary_table.tsv")
+```
+

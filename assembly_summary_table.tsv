@@ -1,0 +1,19 @@
+rm_id	contig_id	contig_size	gc	strain_id	org_name	genome_size	note	total_contig_size
+NISTRM 1	tig00002264_pilon	4495395	0.5143670355997637	ATCC-12324	Salmonella enterica arizonae	5297117	(good)	4495395
+NISTRM 10	tig00000351_pilon	2887079	0.375774615104055	ATCC 19433	Enterococcus faecalis	6010037	(50% Corynebacterium - 50% Enterococcus faecalis)	2887079
+NISTRM 11	tig00001961_pilon	5320002	0.5739386940080098	ATCC 13883	Klebsiella pneumoniae	NA	(good)	5320002
+NISTRM 12	tig00001095_pilon	4942120	0.510361747590103	ATCC 25931	Shigella sonnei	NA	(good)	4942120
+NISTRM 13	tig00000001_pilon	3291617	0.5079673607227086	ATCC 35016	Vibrio furnissii	NA	(97% correct - 3% others are 12 species from our RM)	3291617
+NISTRM 14	tig00000001_pilon	2977009	0.3799988511959487	ATCC 19115	Listeria monocytogenes	NA	(good)	2977009
+NISTRM 15	tig00000001_pilon	2885194	0.3759878885094035	ATCC 49368	Corynebacterium amycolatum	NA	(Wrong Strain - Correct ID is Enterococcus faecalis - 100% pure)	2885194
+NISTRM 16	tig00000001_pilon	3426543	0.38321334359440407	ATCC 33152	Legionella pneumophila	NA	(good!  100%)	3426543
+NISTRM 17	tig00000007_pilon	2176492	0.5187889502924891	ATCC 13077	Neisseria meningitidis	NA	(11% Neissera, 85% Bacillus)	6624326
+NISTRM 17	tig00000379_pilon	4447834	0.45946319039784306	ATCC 13077	Neisseria meningitidis	NA	(11% Neissera, 85% Bacillus)	6624326
+NISTRM 2	tig00000001_pilon	4874856	0.5219224937105834	ATCC-700720	Salmonella enterica tyhpimurium	7714010	(99% pure - maybe Corynebacterium contamination)	4874856
+NISTRM 3	tig00000001_pilon	2994184	0.3289079762633158	ATCC-BAA-44	Staphylococcus aureus	3067805	(good)	2994184
+NISTRM 4	tig00000001_pilon	6284853	0.6653318701328416	ATCC-BAA-47	Pseudomonas aeruginosa	7880267	(90% correct - 2% Enterococcus faecalis and 5% Corynebacterium)	6284853
+NISTRM 5	tig00000001_pilon	5418622	0.5050324602823375	ATCC 43895	Escherichia coli O157:H7	5389465	(good)	5418622
+NISTRM 6	tig00002610_pilon	5319526	0.507199137667529	ATCC BAA 2309	Escherichia coli O104:H4	6746060	(92% correct - 8% Klebsiella pneumoniae)	5319526
+NISTRM 7	tig00000001_pilon	2777629	0.3286796040795945	ATCC 12600	Staphyloccus aureus	2967254	(98% correct - maybe some Achromobacter contamination)	2777629
+NISTRM 8	tig00000001_pilon	2529981	0.32103482200063954	ATCC 12228	Staphyloccus epidermidis	10838213	(75% Staphyloccus epidermidis - 25% Achromobacter xylosoxidans)	2529981
+NISTRM 9	tig00000001_pilon	1935570	0.3854440810717256	ATCC 12344	Streptococcus pyogenes	3957052	(good)	1935570

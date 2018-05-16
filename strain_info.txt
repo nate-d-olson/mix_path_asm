@@ -1,0 +1,94 @@
+NISTRM 1
+ATCC-12324
+Salmonella enterica arizonae
+(good)
+5297117
+
+NISTRM 2
+ATCC-700720
+Salmonella enterica tyhpimurium
+(99% pure - maybe Corynebacterium contamination)
+7714010
+
+NISTRM 3
+ATCC-BAA-44
+Staphylococcus aureus
+(good)
+3067805
+
+NISTRM 4
+ATCC-BAA-47
+Pseudomonas aeruginosa
+(90% correct - 2% Enterococcus faecalis and 5% Corynebacterium)
+7880267
+
+NISTRM 5
+ATCC 43895
+Escherichia coli O157:H7
+(good)
+5389465
+
+NISTRM 6
+ATCC BAA 2309
+Escherichia coli O104:H4
+(92% correct - 8% Klebsiella pneumoniae)
+6746060
+
+NISTRM 7
+ATCC 12600
+Staphyloccus aureus
+(98% correct - maybe some Achromobacter contamination)
+2967254
+
+NISTRM 8
+ATCC 12228
+Staphyloccus epidermidis
+(75% Staphyloccus epidermidis - 25% Achromobacter xylosoxidans)
+10838213
+
+NISTRM 9
+ATCC 12344
+Streptococcus pyogenes
+(good)
+3957052
+
+NISTRM 10
+ATCC 19433
+Enterococcus faecalis
+(50% Corynebacterium - 50% Enterococcus faecalis)
+6010037
+
+NISTRM 11
+ATCC 13883
+Klebsiella pneumoniae
+(good)
+
+NISTRM 12
+ATCC 25931
+Shigella sonnei
+(good)
+
+NISTRM 13
+ATCC 35016
+Vibrio furnissii
+(97% correct - 3% others are 12 species from our RM)
+
+NISTRM 14
+ATCC 19115
+Listeria monocytogenes
+(good)
+
+NISTRM 15
+ATCC 49368
+Corynebacterium amycolatum
+(Wrong Strain - Correct ID is Enterococcus faecalis - 100% pure)
+
+NISTRM 16
+ATCC 33152
+Legionella pneumophila
+(good!  100%)
+
+NISTRM 17
+ATCC 13077
+Neisseria meningitidis
+(11% Neissera, 85% Bacillus)
